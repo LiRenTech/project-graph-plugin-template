@@ -1,0 +1,21 @@
+{
+  "name": "project-graph-plugin-template",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "packageManager": "pnpm@10.8.1",
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "esbuild": "^0.25.2"
+  },
+  "dependencies": {
+    "project-graph-api": "^1.0.0"
+  }
+}
