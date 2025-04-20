@@ -1,3 +1,5 @@
 import { Dialog } from "project-graph-api";
 
-Dialog.show("Hello World", "from plugin template");
+(async () => {
+  await Dialog.show("Hello World", "from plugin template");
+})()
